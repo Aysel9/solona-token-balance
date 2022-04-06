@@ -1,0 +1,36 @@
+section{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+	padding: 50px;
+	color:black;
+	font-size:20px;
+
+	.content{
+    display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+	}
+
+	.token{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	flex-direction:row;
+	span{
+		font-weight: 700;
+		font-size: 30px;
+		margin-right: 10px;
+	}
+	img{
+		margin-right: 200px;
+	}
+	}
+
+}
+
+main{
+	font-size: 40px;
+}
